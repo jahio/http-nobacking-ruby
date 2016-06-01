@@ -1,40 +1,22 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    daemons (1.2.3)
-    eventmachine (1.2.0.1)
-    kgio (2.10.0)
-    passenger (5.0.28)
-      rack
-      rake (>= 0.8.1)
     puma (3.4.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
-    raindrops (0.16.0)
-    rake (11.1.2)
     sinatra (1.4.7)
       rack (~> 1.5)
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
-    thin (1.7.0)
-      daemons (~> 1.0, >= 1.0.9)
-      eventmachine (~> 1.0, >= 1.0.4)
-      rack (>= 1, < 3)
     tilt (2.0.4)
-    unicorn (5.1.0)
-      kgio (~> 2.6)
-      raindrops (~> 0.7)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  passenger
   puma
   sinatra
-  thin
-  unicorn
 
 BUNDLED WITH
    1.12.5
